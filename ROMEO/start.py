@@ -52,10 +52,11 @@ async def _human_time_duration(seconds):
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
         photo=f"https://telegra.ph/file/a82f511eb98f58a685e32.jpg",
-        caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
- **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
- **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+        caption=f"""Hello, **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
+ I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music × video in your group voice chat. Just add me and promote with needed powers.
+
+Use Inline buttons for more !!
+For Help : @StrayCoderSupport""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -68,14 +69,14 @@ async def start_private(client: Client, message: Message):
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_romeoo"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "📨 Support", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📨 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
@@ -99,9 +100,9 @@ async def start_group(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("📨 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📨 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
