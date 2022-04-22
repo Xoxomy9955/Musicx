@@ -118,15 +118,13 @@ async def start_group(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["repo", f"repo@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Hello** {message.from_user.mention()} !
-» **press the button below to read the explanation and see the list of available commands !**
-⚡ __Powered by {BOT_NAME} A.I__""",
+        f"""`Click on the Button given below to Get the source code of the Bot.`""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="❓ Basic Guide", callback_data="cb_cmd")]]
+            [[InlineKeyboardButton(text="⚙️ Source Code", url=f" ")]]
         ),
     )
 
@@ -136,7 +134,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 Bot Alive #𝙃𝙚𝙧𝙤𝙭_𝙈𝙪𝙨𝙞𝙘 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("I am Alive ~\n@StrayCoder\n\nMy HeartBeat :\n{delta_ping * 1000:.3f} 𝙱𝙿𝚂")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
