@@ -291,7 +291,7 @@ async def play(c: Client, m: Message):
                         )
                     else:
                         try:
-                            await suhu.edit("🔄 **Connecting to vc...**")
+                            await suhu.edit("**Connecting 🔄 to the Server !!**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioPiped(
