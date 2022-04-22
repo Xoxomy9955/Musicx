@@ -1,7 +1,7 @@
 {
-    "name": "TrickyAbhi-Music",
-    "logo": "",
-    "description": "TrickyAbhi-Music allow you to stream music trought the telegram voice chat feature.",
+    "name": "StrayCoder Music × Video Streamer",
+    "logo": "https://telegra.ph/file/421ec51f510670312c131.jpg",
+    "description": "I am powerful a TeleGram Music× Video Streamer to entertain You In video Chat of TeleGram !!",
     "keywords": [
         "music", 
         "voice chat", 
@@ -24,33 +24,33 @@
         },
         "OWNER_NAME": {
             "description": "fill YOUR USERNAME WITHOUT '@' .",
-            "value": "ABHIISH3K_xD",
+            "value": "Its_romeoo",
             "required": false
         },
         "ALIVE_NAME": {
-            "description": "PUT YOUR BOT NAME .",
-            "value": "𝗛𝗘𝗥𝗢𝗫 𝗠𝗨𝗦𝗜𝗖",
+            "description": "PUT YOUR BOT NAME.",
+            "value": "Music Bot",
             "required": false
             
         },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
-            "value": "𝗛𝗘𝗥𝗢𝗫 𝗠𝗨𝗦𝗜𝗖",
+            "value": "Music Bot",
             "required": true
         },
          "DURATION_LIMIT": {
             "description": "PUT YOUR BOT duration time.",
-            "value": "70",
+            "value": "120",
             "required": true
         },
         "GROUP_SUPPORT": {
             "description": "PUT YOUR group username without @.",
-            "value": "TrickyAbhii_Op",
+            "value": "StrayCoderSupport",
             "required": true
         },
         "UPDATES_CHANNEL": {
             "description": "PUT YOUR channel username without @.",
-            "value": "Techno_Trickop",
+            "value": "StrayCoder",
             "required": true
         },
     
@@ -68,7 +68,7 @@
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space) .",
-            "value": "5124507794 5198403647",
+            "value": "5058236569",
             "required": true
         }
         
