@@ -61,15 +61,15 @@ For Help : @StrayCoderSupport""",
             [
                 [
                     InlineKeyboardButton(
-                        "⛓ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ",
+                        "✚ Add me in your Group",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton(
-                    "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
+                    "❓Commands", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_romeoo"),
+                    InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/Its_romeoo"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -81,7 +81,7 @@ For Help : @StrayCoderSupport""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "⚙ Source Code", url="https://github.com/SJMxADITI/TrickyMusic"
                     )
                 ],
             ]
