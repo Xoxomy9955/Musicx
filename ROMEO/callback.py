@@ -59,27 +59,27 @@ async def cb_start(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "⛓ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ",
+                        "✚ Add me in your Group",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton(
-                    "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
+                    "❓Commands", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/herox_xd"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "📨 Support", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📨 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "⚙ Source Code", url="https://github.com/SJMxADITI/TrickyMusic"
                     )
                 ],
             ]
