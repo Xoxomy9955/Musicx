@@ -81,7 +81,7 @@ For Help : @StrayCoderSupport""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚙ Source Code", url="https://github.com/TheStrayCoder/Music-x-Video-Bot"
+                        "⚙ Source Code", url="https://github.com/TheStrayCoder/MusicVideo-Stream"
                     )
                 ],
             ]
@@ -124,7 +124,7 @@ async def help(client: Client, message: Message):
     await message.reply_text(
         f"""`Click on the Button given below to Get the source code of the Bot.`""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="⚙️ Source Code", url=f"https://github.com/TheStrayCoder/Music-x-Video-Bot")]]
+            [[InlineKeyboardButton(text="⚙️ Source Code", url=f"https://github.com/TheStrayCoder/MusicVideo-Stream")]]
         ),
     )
 
