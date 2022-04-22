@@ -90,7 +90,7 @@ For Help : @StrayCoderSupport""",
 
 
 @Client.on_message(
-    command(["start", f"start@{BOT_USERNAME}", "alive", f"alive@{BOT_USERNAME}"]) & ~filters.edited
+    command(["start", f"start@{BOT_USERNAME}", "alive", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def start_group(client: Client, message: Message):
     current_time = datetime.utcnow()
