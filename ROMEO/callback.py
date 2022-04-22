@@ -95,9 +95,11 @@ async def cb_start(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_cmd"))
 async def cb_cmd(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""✨ **Hello !**
-» **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴs 🔭 !**
-⚡ Powered by [H E R O X](https://t.me/Herox_xd)""",
+        f"""**Heyy** [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})
+
+Check out the menu below to read the module information & see the list of available Commands !!
+
+Developed By : @Its_romeoo""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
