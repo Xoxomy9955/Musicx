@@ -68,7 +68,7 @@ For Help : @StrayCoderSupport""",
                     "❓Commands", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/Its_romeoo"),
                 ],
                 [
                     InlineKeyboardButton(
