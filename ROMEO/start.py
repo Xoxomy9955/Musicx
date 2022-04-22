@@ -90,7 +90,7 @@ For Help : @StrayCoderSupport""",
 
 
 @Client.on_message(
-    command(["alive", f"alive@{BOT_USERNAME}"]) & ~filters.edited
+    command(["start", f"start@{BOT_USERNAME}", "alive", f"alive@{BOT_USERNAME}"]) & ~filters.edited
 )
 async def start_group(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -118,7 +118,7 @@ async def start_group(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["repo", f"repo@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["repo", f"repo@{BOT_USERNAME}"]) & ~filters.edited
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
