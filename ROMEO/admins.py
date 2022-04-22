@@ -1,10 +1,10 @@
-from SJM.Cache.admins import admins
-from TrickyAbhi.main import call_py
+from CFC.Cache.admins import admins
+from StrayCoder.main import call_py
 from pyrogram import Client, filters
-from SJM.decorators import authorized_users_only
-from SJM.filters import command, other_filters
-from SJM.queues import QUEUE, clear_queue
-from SJM.utils import skip_current_song, skip_item
+from CFC.decorators import authorized_users_only
+from CFC.filters import command, other_filters
+from CFC.queues import QUEUE, clear_queue
+from CFC.utils import skip_current_song, skip_item
 from config import BOT_USERNAME, GROUP_SUPPORT, IMG_3, UPDATES_CHANNEL
 from pyrogram.types import (
     CallbackQuery,
