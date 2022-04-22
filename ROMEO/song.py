@@ -19,8 +19,8 @@ from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 
 from config import BOT_USERNAME as bn
-from SJM.decorators import humanbytes
-from SJM.filters import command
+from CFC.decorators import humanbytes
+from CFC.filters import command
 
 
 ydl_opts = {
