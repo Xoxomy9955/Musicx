@@ -29,14 +29,14 @@ async def cbmenu(_, query: CallbackQuery):
               f"⚙️ **settings of** {query.message.chat.title}\n\n⏸ : pause stream\n▶️ : resume stream\n🔇 : mute userbot\n🔊 : unmute userbot\n⏹ : stop stream",
               reply_markup=InlineKeyboardMarkup(
                   [[
-                      InlineKeyboardButton("⏹", callback_data="cbstop"),
-                      InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                      InlineKeyboardButton("▢", callback_data="cbstop"),
+                      InlineKeyboardButton("II", callback_data="cbpause"),
+                      InlineKeyboardButton("‣‣", callback_data="cbresume"),
                   ],[
                       InlineKeyboardButton("🔇", callback_data="cbmute"),
                       InlineKeyboardButton("🔊", callback_data="cbunmute"),
                   ],[
-                      InlineKeyboardButton("🗑 Close", callback_data="cls")],
+                      InlineKeyboardButton("🚫 Close", callback_data="cls")],
                   ]
              ),
          )
@@ -101,12 +101,11 @@ async def cb_cmd(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("sᴏᴍᴇ ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅ", callback_data="cb_basic"),
-                    InlineKeyboardButton("sᴏᴍᴇ ᴀᴅᴠᴀɴᴄᴇ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cb_advance"),
+                    InlineKeyboardButton("Basic❗️", callback_data="cb_basic"),
+                    InlineKeyboardButton("Advance 🕹", callback_data="cb_advance"),
                 ],
-                [InlineKeyboardButton("sᴏᴍᴇ ғᴜɴ ᴄᴏᴍᴍᴀɴᴅ", callback_data="cb_fun")],
                
-                [InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_start")],
+                [InlineKeyboardButton("⬅️ Back", callback_data="cb_start")],
             ]
         ),
     )
@@ -114,21 +113,23 @@ async def cb_cmd(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_basic"))
 async def cb_basic(_, query: CallbackQuery):
     await query.edit_message_text(  
-        f"""𝙎𝙞𝙢𝙥𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 
-        
-        
-•  `/play (song name)` 
-•  `/vplay (song name)` 
-•  `/vstream (song name)` 
-•  `/skip` - skip the current song
-•  `/end` - stop music play
-•  `/pause` - pause song play
-•  `/resume` - resume song play
-•  `/mute` - mute assistant in vc
-•  `/lyrics (song name)`
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+        f"""🤖 Normal Bot Commands :-
+
+» /play - (song name) 
+» /vplay - play video 
+» /vstream - link or name
+» /skip - Skip the Song
+» /end - Stop Playing Music
+» /pause - Pause the track
+» /resume - Resumes the Track
+» /mute - Mute the Assistant 
+» /search - (song name)
+» /song - Download Song File
+» /lyrics - Get Lyrics of the Song
+
+🌀 Powered By : @StrayCoder""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
+            [[InlineKeyboardButton("⬅️ Back", callback_data="cb_cmd")]]
         ),
     )
     
@@ -136,16 +137,20 @@ async def cb_basic(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_advance"))
 async def cb_advance(_, query: CallbackQuery):
     await query.edit_message_text(    
-      f"""𝙀𝙭𝙩𝙧𝙖 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨
-• `/ping` pong !!
-• `/start` - Alive msg ~group 
-• `/id` - Find out your grp and your id // stickers id also
-• `/uptime` - 💻
-• `/rmd` clean all downloads
-• `/clean` - clear storage 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+      f"""⚙ Some Extra Commands :-
+
+» /ping - Shows the Ping Status
+» /alive - Shows the Alive Status
+» /start - Starts the Bot
+» /id - Get the ID
+» /repo - Get the source code 
+» /rmd - Clean all the downloads
+» /clean - Clean the Storage
+» /gcast - broadcast your message
+
+🌀 Powered By : @StrayCoder""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
+            [[InlineKeyboardButton("⬅️ Back", callback_data="cb_cmd")]]
         ),
     )
     
@@ -154,14 +159,14 @@ async def cb_advance(_, query: CallbackQuery):
 async def cb_fun(_, query: CallbackQuery):
     await query.edit_message_text(  
         f"""𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨
-• `/truth` 🌝
-• `/dare`  🌝
-• `/sjm`    🌝
-• `/abhi`   🌝
-• `/tricky` 🌝   
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+• `/lawda` 
+• `/lassan`  
+• `/randi`    
+• `/lund`   
+• `/chut`    
+⚡""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
+            [[InlineKeyboardButton("⬅️ Back", callback_data="cb_cmd")]]
         ),
     )
         
@@ -176,5 +181,5 @@ async def cb_fun(_, query: CallbackQuery):
 async def close(_, query: CallbackQuery):
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("ɴɪᴋᴀʟ ʙsᴅᴋ ᴛᴜ ᴀᴅᴍɪɴ ɴᴀʜɪ ʜᴀɪ ɢʀᴘ ᴋᴀ !", show_alert=True)
+        return await query.answer("Sorry !! You are not a admin in this Group.", show_alert=True)
     await query.message.delete()
