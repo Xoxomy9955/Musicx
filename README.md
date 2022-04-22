@@ -1,6 +1,6 @@
 <h1 align="center"><b>Stray Coder TeleGram Music × Video Streamer</b></h1>
 
-# <p align="center"><a href="https://github.com/TheStrayCoder/Music-x-Video-Bot"><img src="https://github-readme-stats.vercel.app/api/pin?username=TheStrayCoder&show_icons=true&theme=dracula&hide_border=true&repo=Music-x-Video-Bot"></a></p>
+# <p align="center"><a href="https://github.com/TheStrayCoder/MusicVideo-Stream"><img src="https://github-readme-stats.vercel.app/api/pin?username=TheStrayCoder&show_icons=true&theme=dracula&hide_border=true&repo=MusicVideo-Stream"></a></p>
 <p align="center">
 
   <details>
@@ -20,13 +20,13 @@
 ## Heroku Deployment <img src="./ImageFont/Kenpurple.gif" width="40px">
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TheStrayCoder/Music-x-Video-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TheStrayCoder/MusicVideo-Stream"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 
 ###  Okteto Deployment
 
 <h4>Click the button below to deploy on Okteto!</h4>
-<a href="https://cloud.okteto.com/deploy?repository=https://github.com/TheStrayCoder/Music-x-Video-Bot"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="250""/></a>
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/TheStrayCoder/MusicVideo-Stream"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="250""/></a>
 
   
 
