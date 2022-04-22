@@ -52,7 +52,7 @@ async def _human_time_duration(seconds):
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
         photo=f"https://telegra.ph/file/a82f511eb98f58a685e32.jpg",
-        caption=f"""Hello, **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
+        caption=f"""Hello, **Welcome** {message.from_user.mention()}\n
  I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music × video in your group voice chat. Just add me and promote with needed powers.
 
 Use Inline buttons for more !!
