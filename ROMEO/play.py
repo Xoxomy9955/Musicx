@@ -131,8 +131,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("‣‣", callback_data="skip"),
                       InlineKeyboardButton("II", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("📨 Updates", url=f"https://t.me/Techno_Trickop"),
-                      InlineKeyboardButton("📨 Support", url=f"https://t.me/TrickyAbhii_Op"),
+                      InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder"),
+                      InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
                   ],[
                       InlineKeyboardButton("🚫 Close", callback_data="cls")],
                   ]
@@ -246,8 +246,8 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📨 Updates", url=f"https://t.me/Techno_Trickop"),
-                            InlineKeyboardButton("📨 Support", url=f"https://t.me/TrickyAbhii_Op")
+                            InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder"),
+                            InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport")
                         ],
                         [
                             InlineKeyboardButton("🚫 Close", callback_data="cls")
