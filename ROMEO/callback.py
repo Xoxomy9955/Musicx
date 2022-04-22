@@ -51,7 +51,7 @@ async def cbmenu(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_start"))
 async def cb_start(_, query: CallbackQuery):
     await query.edit_message_text(
-       f"""Hello[,](https://telegra.ph/file/ea8d4bee1c0fac3814e11.jpg) **Welcome** [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})**\n
+       f"""Hello[,](https://telegra.ph/file/f82c6c960be3f8471fb0a.jpg) **Welcome** [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})**\n
  I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music × video in your group voice chat. Just add me and promote with needed powers.
 
 Use Inline buttons for more !!
