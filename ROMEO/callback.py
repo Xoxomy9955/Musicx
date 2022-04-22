@@ -80,7 +80,7 @@ For Help : @StrayCoderSupport""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚙ Source Code", url="https://github.com/TheStrayCoder/Music-x-Video-Bot"
+                        "⚙ Source Code", url="https://github.com/TheStrayCoder/MusicVideo-Stream"
                     )
                 ],
             ]
