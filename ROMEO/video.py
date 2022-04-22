@@ -103,8 +103,8 @@ async def generate_cover(thumbnail, title, userid, ctitle):
     Image.alpha_composite(image5, image6).save(f"temp{userid}.png")
     img = Image.open(f"temp{userid}.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("TrickyAbhi/finalfont.ttf", 60)
-    font2 = ImageFont.truetype("TrickyAbhi/finalfont.ttf", 70)     
+    font = ImageFont.truetype("StrayCoder/finalfont.ttf", 60)
+    font2 = ImageFont.truetype("StrayCoder/finalfont.ttf", 70)     
     draw.text((20, 45), f"{title[:30]}...", fill= "white", stroke_width = 1, stroke_fill="white", font=font2)
     draw.text((120, 595), f"Playing on: {ctitle[:20]}...", fill="white", stroke_width = 1, stroke_fill="white" ,font=font)
     img.save(f"final{userid}.png")
@@ -242,11 +242,11 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("• Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("• Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder"),
+                            InlineKeyboardButton("📨 Support", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
-                            InlineKeyboardButton("🗑 Close", callback_data="cls")
+                            InlineKeyboardButton("🚫 Close", callback_data="cls")
                         ]
                     ]
                 )
