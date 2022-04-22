@@ -23,4 +23,35 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TheStrayCoder/Music-x-Video-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 
+###  Okteto Deployment
+
+<h4>Click the button below to deploy on Okteto!</h4>
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/TheStrayCoder/Music-x-Video-Bot"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="250""/></a>
+
+  
+
+  
+# Stray-Coder Music
+Give us a star and fork our repo
+  
+  
+  
+### Noob Developers 
+  
+<a href="https://t.me/Its_romeoo"><img src="https://img.shields.io/badge/Romeo-ReD.svg?style=for-the-badge&logo=Python"></a> 
+  
+<a href="https://t.me/PhoenixWarmed"><img src="https://img.shields.io/badge/Phoenix-ReD.svg?style=for-the-badge&logo=Python"></a> 
+  
+
+## Support & Updates 
+<a href="https://t.me/StrayCoderSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/StrayCoder"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+  
+# Support Us
+  
+  
+- Click Here 👇🏻 and Join Please
+  
+  [![Phoenix Empire](https://telegra.ph/file/c4a71bd6b606f037b21c8.jpg)](https://t.me/PHOENIX_EMPIRE)
+
+
 
