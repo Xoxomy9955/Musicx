@@ -134,7 +134,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("I am Alive ~\n@StrayCoder\n\nMy HeartBeat :\n{delta_ping * 1000:.3f} 𝙱𝙿𝚂")
+    await m_reply.edit_text("I am Alive ~\n@StrayCoder\n\nI am ready to fuck the vc❗")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
