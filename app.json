@@ -7,7 +7,7 @@
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/SJMxADITI/TryMusic",
+    "repository": "https://github.com/TheStrayCoder/MusicVideo-Stream",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
