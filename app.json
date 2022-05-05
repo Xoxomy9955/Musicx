@@ -7,7 +7,7 @@
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/TheStrayCoder/MusicVideo-Stream",
+    "repository": "https://github.com/XOXOMY9955/MusicVideo-Stream",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -24,18 +24,18 @@
         },
         "OWNER_NAME": {
             "description": "fill YOUR USERNAME WITHOUT '@' .",
-            "value": "Its_romeoo",
+            "value": "Itz_xoxo",
             "required": false
         },
         "ALIVE_NAME": {
             "description": "PUT YOUR BOT NAME.",
-            "value": "Music Bot",
+            "value": "itz_xoxo",
             "required": false
             
         },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
-            "value": "Music Bot",
+            "value": "xoxo",
             "required": true
         },
          "DURATION_LIMIT": {
@@ -45,7 +45,7 @@
         },
         "GROUP_SUPPORT": {
             "description": "PUT YOUR group username without @.",
-            "value": "StrayCoderSupport",
+            "value": "musicxo11",
             "required": true
         },
         "UPDATES_CHANNEL": {
@@ -68,7 +68,7 @@
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space) .",
-            "value": "5058236569",
+            "value": "5261763450",
             "required": true
         }
         
