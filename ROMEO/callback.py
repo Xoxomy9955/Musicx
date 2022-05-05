@@ -68,7 +68,7 @@ For Help : @StrayCoderSupport""",
                     "❓Commands", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/ABOUT_DADDY"),
+                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/itz_xoxo"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -118,13 +118,13 @@ async def cb_basic(_, query: CallbackQuery):
     await query.edit_message_text(  
         f"""🤖 Normal Bot Commands :-
 
-» /play - (song name) 
-» /vplay - play video 
-» /vstream - link or name
-» /skip - Skip the Song
-» /end - Stop Playing Music
-» /pause - Pause the track
-» /resume - Resumes the Track
+» !play - (song name) 
+» !vplay - play video 
+» !vstream - link or name
+» !skip - Skip the Song
+» !end - Stop Playing Music
+» !pause - Pause the track
+» !resume - Resumes the Track
 » /mute - Mute the Assistant 
 » /search - (song name)
 » /song - Download Song File
